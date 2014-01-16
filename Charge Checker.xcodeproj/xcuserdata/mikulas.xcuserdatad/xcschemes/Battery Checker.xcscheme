@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1B463AEA1871A1B000E5DE62"
-               BuildableName = "Battery Checker.app"
-               BlueprintName = "Battery Checker"
-               ReferencedContainer = "container:Battery Checker.xcodeproj">
+               BuildableName = "Charge Checker.app"
+               BlueprintName = "Charge Checker"
+               ReferencedContainer = "container:Charge Checker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1B463B0B1871A1B000E5DE62"
-               BuildableName = "Battery CheckerTests.xctest"
-               BlueprintName = "Battery CheckerTests"
-               ReferencedContainer = "container:Battery Checker.xcodeproj">
+               BuildableName = "Charge CheckerTests.xctest"
+               BlueprintName = "Charge CheckerTests"
+               ReferencedContainer = "container:Charge Checker.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1B463AEA1871A1B000E5DE62"
-            BuildableName = "Battery Checker.app"
-            BlueprintName = "Battery Checker"
-            ReferencedContainer = "container:Battery Checker.xcodeproj">
+            BuildableName = "Charge Checker.app"
+            BlueprintName = "Charge Checker"
+            ReferencedContainer = "container:Charge Checker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1B463AEA1871A1B000E5DE62"
-            BuildableName = "Battery Checker.app"
-            BlueprintName = "Battery Checker"
-            ReferencedContainer = "container:Battery Checker.xcodeproj">
+            BuildableName = "Charge Checker.app"
+            BlueprintName = "Charge Checker"
+            ReferencedContainer = "container:Charge Checker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1B463AEA1871A1B000E5DE62"
-            BuildableName = "Battery Checker.app"
-            BlueprintName = "Battery Checker"
-            ReferencedContainer = "container:Battery Checker.xcodeproj">
+            BuildableName = "Charge Checker.app"
+            BlueprintName = "Charge Checker"
+            ReferencedContainer = "container:Charge Checker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

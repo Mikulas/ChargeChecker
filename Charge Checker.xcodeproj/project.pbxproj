@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2D0898188750A900E30DAB /* icon_color_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2D0893188750A900E30DAB /* icon_color_16.png */; };
+		1B2D0899188750A900E30DAB /* icon_color_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2D0894188750A900E30DAB /* icon_color_32.png */; };
+		1B2D089A188750A900E30DAB /* icon_color_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2D0895188750A900E30DAB /* icon_color_64.png */; };
+		1B2D089B188750A900E30DAB /* icon_color_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2D0896188750A900E30DAB /* icon_color_128.png */; };
+		1B2D089C188750A900E30DAB /* icon_color_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2D0897188750A900E30DAB /* icon_color_256.png */; };
 		1B463AEF1871A1B000E5DE62 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B463AEE1871A1B000E5DE62 /* Cocoa.framework */; };
 		1B463AF91871A1B000E5DE62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B463AF71871A1B000E5DE62 /* InfoPlist.strings */; };
 		1B463AFB1871A1B000E5DE62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B463AFA1871A1B000E5DE62 /* main.m */; };
@@ -18,6 +23,9 @@
 		1B463B0F1871A1B000E5DE62 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B463AEE1871A1B000E5DE62 /* Cocoa.framework */; };
 		1B463B171871A1B000E5DE62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B463B151871A1B000E5DE62 /* InfoPlist.strings */; };
 		1B463B191871A1B000E5DE62 /* Battery_CheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B463B181871A1B000E5DE62 /* Battery_CheckerTests.m */; };
+		1B463B231871A34700E5DE62 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B463B221871A34700E5DE62 /* IOKit.framework */; };
+		1BA6A24E188747D000C2C535 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA6A24D188747D000C2C535 /* icon.png */; };
+		1BA6A25218874BB200C2C535 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA6A25118874BB200C2C535 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,25 +39,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B463AEB1871A1B000E5DE62 /* Battery Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battery Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2D0893188750A900E30DAB /* icon_color_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_color_16.png; sourceTree = "<group>"; };
+		1B2D0894188750A900E30DAB /* icon_color_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_color_32.png; sourceTree = "<group>"; };
+		1B2D0895188750A900E30DAB /* icon_color_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_color_64.png; sourceTree = "<group>"; };
+		1B2D0896188750A900E30DAB /* icon_color_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_color_128.png; sourceTree = "<group>"; };
+		1B2D0897188750A900E30DAB /* icon_color_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_color_256.png; sourceTree = "<group>"; };
+		1B463AEB1871A1B000E5DE62 /* Charge Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charge Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B463AEE1871A1B000E5DE62 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1B463AF11871A1B000E5DE62 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1B463AF21871A1B000E5DE62 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1B463AF31871A1B000E5DE62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1B463AF61871A1B000E5DE62 /* Battery Checker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Battery Checker-Info.plist"; sourceTree = "<group>"; };
+		1B463AF61871A1B000E5DE62 /* Charge Checker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Charge Checker-Info.plist"; sourceTree = "<group>"; };
 		1B463AF81871A1B000E5DE62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B463AFA1871A1B000E5DE62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1B463AFC1871A1B000E5DE62 /* Battery Checker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Battery Checker-Prefix.pch"; sourceTree = "<group>"; };
+		1B463AFC1871A1B000E5DE62 /* Charge Checker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Charge Checker-Prefix.pch"; sourceTree = "<group>"; };
 		1B463AFE1871A1B000E5DE62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		1B463B001871A1B000E5DE62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B463B011871A1B000E5DE62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1B463B041871A1B000E5DE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1B463B061871A1B000E5DE62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1B463B0C1871A1B000E5DE62 /* Battery CheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battery CheckerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B463B0C1871A1B000E5DE62 /* Charge CheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Charge CheckerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B463B0D1871A1B000E5DE62 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		1B463B141871A1B000E5DE62 /* Battery CheckerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Battery CheckerTests-Info.plist"; sourceTree = "<group>"; };
+		1B463B141871A1B000E5DE62 /* Charge CheckerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Charge CheckerTests-Info.plist"; sourceTree = "<group>"; };
 		1B463B161871A1B000E5DE62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B463B181871A1B000E5DE62 /* Battery_CheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Battery_CheckerTests.m; sourceTree = "<group>"; };
+		1B463B221871A34700E5DE62 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		1BA6A24D188747D000C2C535 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1BA6A25118874BB200C2C535 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B463B231871A34700E5DE62 /* IOKit.framework in Frameworks */,
 				1B463AEF1871A1B000E5DE62 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +93,7 @@
 		1B463AE21871A1B000E5DE62 = {
 			isa = PBXGroup;
 			children = (
-				1B463AF41871A1B000E5DE62 /* Battery Checker */,
+				1B463AF41871A1B000E5DE62 /* Charge Checker */,
 				1B463B121871A1B000E5DE62 /* Battery CheckerTests */,
 				1B463AED1871A1B000E5DE62 /* Frameworks */,
 				1B463AEC1871A1B000E5DE62 /* Products */,
@@ -86,8 +103,8 @@
 		1B463AEC1871A1B000E5DE62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B463AEB1871A1B000E5DE62 /* Battery Checker.app */,
-				1B463B0C1871A1B000E5DE62 /* Battery CheckerTests.xctest */,
+				1B463AEB1871A1B000E5DE62 /* Charge Checker.app */,
+				1B463B0C1871A1B000E5DE62 /* Charge CheckerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +112,7 @@
 		1B463AED1871A1B000E5DE62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B463B221871A34700E5DE62 /* IOKit.framework */,
 				1B463AEE1871A1B000E5DE62 /* Cocoa.framework */,
 				1B463B0D1871A1B000E5DE62 /* XCTest.framework */,
 				1B463AF01871A1B000E5DE62 /* Other Frameworks */,
@@ -112,7 +130,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		1B463AF41871A1B000E5DE62 /* Battery Checker */ = {
+		1B463AF41871A1B000E5DE62 /* Charge Checker */ = {
 			isa = PBXGroup;
 			children = (
 				1B463B001871A1B000E5DE62 /* AppDelegate.h */,
@@ -121,16 +139,24 @@
 				1B463B061871A1B000E5DE62 /* Images.xcassets */,
 				1B463AF51871A1B000E5DE62 /* Supporting Files */,
 			);
+			name = "Charge Checker";
 			path = "Battery Checker";
 			sourceTree = "<group>";
 		};
 		1B463AF51871A1B000E5DE62 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B463AF61871A1B000E5DE62 /* Battery Checker-Info.plist */,
+				1BA6A24D188747D000C2C535 /* icon.png */,
+				1BA6A25118874BB200C2C535 /* icon@2x.png */,
+				1B2D0893188750A900E30DAB /* icon_color_16.png */,
+				1B2D0894188750A900E30DAB /* icon_color_32.png */,
+				1B2D0895188750A900E30DAB /* icon_color_64.png */,
+				1B2D0896188750A900E30DAB /* icon_color_128.png */,
+				1B2D0897188750A900E30DAB /* icon_color_256.png */,
+				1B463AF61871A1B000E5DE62 /* Charge Checker-Info.plist */,
 				1B463AF71871A1B000E5DE62 /* InfoPlist.strings */,
 				1B463AFA1871A1B000E5DE62 /* main.m */,
-				1B463AFC1871A1B000E5DE62 /* Battery Checker-Prefix.pch */,
+				1B463AFC1871A1B000E5DE62 /* Charge Checker-Prefix.pch */,
 				1B463AFD1871A1B000E5DE62 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -148,7 +174,7 @@
 		1B463B131871A1B000E5DE62 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B463B141871A1B000E5DE62 /* Battery CheckerTests-Info.plist */,
+				1B463B141871A1B000E5DE62 /* Charge CheckerTests-Info.plist */,
 				1B463B151871A1B000E5DE62 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B463AEA1871A1B000E5DE62 /* Battery Checker */ = {
+		1B463AEA1871A1B000E5DE62 /* Charge Checker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B463B1C1871A1B000E5DE62 /* Build configuration list for PBXNativeTarget "Battery Checker" */;
+			buildConfigurationList = 1B463B1C1871A1B000E5DE62 /* Build configuration list for PBXNativeTarget "Charge Checker" */;
 			buildPhases = (
 				1B463AE71871A1B000E5DE62 /* Sources */,
 				1B463AE81871A1B000E5DE62 /* Frameworks */,
@@ -169,14 +195,14 @@
 			);
 			dependencies = (
 			);
-			name = "Battery Checker";
+			name = "Charge Checker";
 			productName = "Battery Checker";
-			productReference = 1B463AEB1871A1B000E5DE62 /* Battery Checker.app */;
+			productReference = 1B463AEB1871A1B000E5DE62 /* Charge Checker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1B463B0B1871A1B000E5DE62 /* Battery CheckerTests */ = {
+		1B463B0B1871A1B000E5DE62 /* Charge CheckerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B463B1F1871A1B000E5DE62 /* Build configuration list for PBXNativeTarget "Battery CheckerTests" */;
+			buildConfigurationList = 1B463B1F1871A1B000E5DE62 /* Build configuration list for PBXNativeTarget "Charge CheckerTests" */;
 			buildPhases = (
 				1B463B081871A1B000E5DE62 /* Sources */,
 				1B463B091871A1B000E5DE62 /* Frameworks */,
@@ -187,9 +213,9 @@
 			dependencies = (
 				1B463B111871A1B000E5DE62 /* PBXTargetDependency */,
 			);
-			name = "Battery CheckerTests";
+			name = "Charge CheckerTests";
 			productName = "Battery CheckerTests";
-			productReference = 1B463B0C1871A1B000E5DE62 /* Battery CheckerTests.xctest */;
+			productReference = 1B463B0C1871A1B000E5DE62 /* Charge CheckerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +232,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1B463AE61871A1B000E5DE62 /* Build configuration list for PBXProject "Battery Checker" */;
+			buildConfigurationList = 1B463AE61871A1B000E5DE62 /* Build configuration list for PBXProject "Charge Checker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +245,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B463AEA1871A1B000E5DE62 /* Battery Checker */,
-				1B463B0B1871A1B000E5DE62 /* Battery CheckerTests */,
+				1B463AEA1871A1B000E5DE62 /* Charge Checker */,
+				1B463B0B1871A1B000E5DE62 /* Charge CheckerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,10 +256,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA6A24E188747D000C2C535 /* icon.png in Resources */,
+				1B2D089A188750A900E30DAB /* icon_color_64.png in Resources */,
 				1B463AF91871A1B000E5DE62 /* InfoPlist.strings in Resources */,
 				1B463B071871A1B000E5DE62 /* Images.xcassets in Resources */,
+				1B2D089C188750A900E30DAB /* icon_color_256.png in Resources */,
+				1B2D089B188750A900E30DAB /* icon_color_128.png in Resources */,
 				1B463AFF1871A1B000E5DE62 /* Credits.rtf in Resources */,
 				1B463B051871A1B000E5DE62 /* MainMenu.xib in Resources */,
+				1BA6A25218874BB200C2C535 /* icon@2x.png in Resources */,
+				1B2D0898188750A900E30DAB /* icon_color_16.png in Resources */,
+				1B2D0899188750A900E30DAB /* icon_color_32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +303,7 @@
 /* Begin PBXTargetDependency section */
 		1B463B111871A1B000E5DE62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B463AEA1871A1B000E5DE62 /* Battery Checker */;
+			target = 1B463AEA1871A1B000E5DE62 /* Charge Checker */;
 			targetProxy = 1B463B101871A1B000E5DE62 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -385,9 +418,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Battery Checker/Battery Checker-Prefix.pch";
-				INFOPLIST_FILE = "Battery Checker/Battery Checker-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Battery Checker/Charge Checker-Prefix.pch";
+				INFOPLIST_FILE = "Battery Checker/Charge Checker-Info.plist";
+				PRODUCT_NAME = "Charge Checker";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,9 +431,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Battery Checker/Battery Checker-Prefix.pch";
-				INFOPLIST_FILE = "Battery Checker/Battery Checker-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Battery Checker/Charge Checker-Prefix.pch";
+				INFOPLIST_FILE = "Battery Checker/Charge Checker-Info.plist";
+				PRODUCT_NAME = "Charge Checker";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -420,8 +453,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Battery CheckerTests/Battery CheckerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Battery CheckerTests/Charge CheckerTests-Info.plist";
+				PRODUCT_NAME = "Charge CheckerTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -438,8 +471,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Battery Checker/Battery Checker-Prefix.pch";
-				INFOPLIST_FILE = "Battery CheckerTests/Battery CheckerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Battery CheckerTests/Charge CheckerTests-Info.plist";
+				PRODUCT_NAME = "Charge CheckerTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -448,7 +481,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B463AE61871A1B000E5DE62 /* Build configuration list for PBXProject "Battery Checker" */ = {
+		1B463AE61871A1B000E5DE62 /* Build configuration list for PBXProject "Charge Checker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B463B1A1871A1B000E5DE62 /* Debug */,
@@ -457,21 +490,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B463B1C1871A1B000E5DE62 /* Build configuration list for PBXNativeTarget "Battery Checker" */ = {
+		1B463B1C1871A1B000E5DE62 /* Build configuration list for PBXNativeTarget "Charge Checker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B463B1D1871A1B000E5DE62 /* Debug */,
 				1B463B1E1871A1B000E5DE62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1B463B1F1871A1B000E5DE62 /* Build configuration list for PBXNativeTarget "Battery CheckerTests" */ = {
+		1B463B1F1871A1B000E5DE62 /* Build configuration list for PBXNativeTarget "Charge CheckerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B463B201871A1B000E5DE62 /* Debug */,
 				1B463B211871A1B000E5DE62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

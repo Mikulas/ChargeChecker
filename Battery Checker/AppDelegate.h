@@ -12,4 +12,14 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (strong, nonatomic) NSStatusItem *statusBar;
+@property (weak) IBOutlet NSMenu *statusMenu;
+@property (weak) IBOutlet NSMenuItem *labelBattery;
+@property (weak) IBOutlet NSMenuItem *labelStatus;
+@property (weak) IBOutlet NSMenuItem *labelRemind;
+@property (weak) IBOutlet NSMenuItem *labelRemindSeparator;
+
+@property Boolean notifiedDrain;
+@property Boolean notifiedOvercharge;
+
 @end
